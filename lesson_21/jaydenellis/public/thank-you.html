@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Thank You - Code Differently</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" id="redux-google-fonts-salient_redux-css" href="https://fonts.googleapis.com/css?family=Poppins%3A600%2C400%7CMontserrat%3A800%2C900%2C700&amp;ver=1597678827" type="text/css" media="all">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Poppins%3A600%2C400%7CMontserrat%3A800%2C900%2C700&#038;ver=1597678827' type='text/css' media='all' />
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-logo">
+            <a href="index.html">
+                <img src="logo.png" alt="Code Differently Logo" />
+            </a>
+        </div>
+        <ul class="header-top-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="header-cta">
+            <a class="sign-up-button" href="signup.html">Sign Up</a>
+        </div>
+    </header>
+    
+    <div class="main">
+        <div class="content">
+            <section class="thank-you-section">
+                <div class="thank-you-container">
+                    <div class="thank-you-icon">
+                        <div class="success-checkmark">
+                            <div class="check-icon">
+                                <span class="icon-line line-tip"></span>
+                                <span class="icon-line line-long"></span>
+                                <div class="icon-circle"></div>
+                                <div class="icon-fix"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="thank-you-content">
+                        <h1>Welcome to <em class="highlight">Code Differently</em>! 🎉</h1>
+                        <p class="thank-you-message">
+                            Thank you for taking the first step towards your tech journey. We're excited to have you join our community of learners and innovators.
+                        </p>
+                        
+                        <div class="next-steps">
+                            <h3>What happens next?</h3>
+                            <div class="steps-grid">
+                                <div class="step">
+                                    <div class="step-number">1</div>
+                                    <div class="step-content">
+                                        <h4>Confirmation Email</h4>
+                                        <p>You'll receive a confirmation email within 24 hours with program details and next steps.</p>
+                                    </div>
+                                </div>
+                                <div class="step">
+                                    <div class="step-number">2</div>
+                                    <div class="step-content">
+                                        <h4>Program Coordinator Contact</h4>
+                                        <p>Our team will reach out to schedule an orientation and answer any questions you may have.</p>
+                                    </div>
+                                </div>
+                                <div class="step">
+                                    <div class="step-number">3</div>
+                                    <div class="step-content">
+                                        <h4>Start Your Journey</h4>
+                                        <p>Begin your coding adventure with our expert instructors and supportive community.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-info">
+                            <h3>Questions? We're here to help!</h3>
+                            <p>If you have any immediate questions, feel free to contact us:</p>
+                            <div class="contact-details">
+                                <div class="contact-item">
+                                    <strong>Email:</strong> hello@codedifferently.com
+                                </div>
+                                <div class="contact-item">
+                                    <strong>Phone:</strong> (302) 555-CODE
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="thank-you-actions">
+                            <a href="index.html" class="primary-button">Back to Home</a>
+                            <a href="#" class="secondary-button">Learn More About Our Programs</a>
+                        </div>
+                        
+                        <div class="social-connect">
+                            <h4>Connect with us on social media:</h4>
+                            <div class="social-links">
+                                <a href="#" class="social-link">Facebook</a>
+                                <a href="#" class="social-link">Twitter</a>
+                                <a href="#" class="social-link">LinkedIn</a>
+                                <a href="#" class="social-link">Instagram</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    
+    <footer class="footer">
+        &copy; 2024 Code Differently
+    </footer>
+    
+    <script>
+        // Add entrance animation
+        document.addEventListener('DOMContentLoaded', function() {
+            const container = document.querySelector('.thank-you-container');
+            container.style.opacity = '0';
+            container.style.transform = 'translateY(30px)';
+            
+            setTimeout(() => {
+                container.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
+                container.style.opacity = '1';
+                container.style.transform = 'translateY(0)';
+            }, 100);
+            
+            // Animate checkmark
+            setTimeout(() => {
+                const checkmark = document.querySelector('.success-checkmark');
+                checkmark.classList.add('animate');
+            }, 500);
+        });
+    </script>
+</body>
+</html>
