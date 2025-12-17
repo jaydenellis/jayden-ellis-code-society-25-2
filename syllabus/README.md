@@ -220,6 +220,49 @@ Regular course work and homework assignments will be provided throughout lessons
     </tbody>
 </table>
 
+## Supplemental Lessons
+
+The following supplemental lessons cover advanced topics and may be referenced throughout the course:
+
+<table>
+    <thead>
+        <tr>
+            <th>Lesson</th>
+            <th>Topic</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><a href="../supplemental1">Supp  1</a></td>
+            <td><b>Content Management Systems</b> - Learn about CMS platforms and how they help build and manage web applications.</td>
+        </tr>
+        <tr>
+            <td><a href="../supplemental2">Supp  2</a></td>
+            <td><b>How to Build A Website</b> - Essential components and considerations for building and managing modern websites.</td>
+        </tr>
+        <tr>
+            <td><a href="../supplemental3">Supp  3</a></td>
+            <td><b>Containerization with Docker</b> - Learn how to package applications and dependencies into portable containers.</td>
+        </tr>
+        <tr>
+            <td><a href="../supplemental4">Supp  4</a></td>
+            <td><b>Integration Testing</b> - Verify that multiple components of your application work together correctly.</td>
+        </tr>
+        <tr>
+            <td><a href="../supplemental5">Supp  5</a></td>
+            <td><b>Agentic AI</b> - Explore AI systems that can autonomously make decisions and perform tasks using the Model Context Protocol (MCP).</td>
+        </tr>
+        <tr>
+            <td><a href="../supplemental6">Supp  6</a></td>
+            <td><b>Microservices Architecture</b> - Understand how to break large applications into smaller, independent services.</td>
+        </tr>
+        <tr>
+            <td><a href="../supplemental7">Supp  7</a></td>
+            <td><b>Web Accessibility</b> - Become familiar with the tools and techniques necessary for making websites that serve everyone.</td>
+        </tr>
+    </tbody>
+</table>
+
 ## Academic Integrity
 
 Students are absolutely encouraged to leverage learning resources outside of official course materials to enhance understanding and complete assignments. This includes use of tools like forums, search engines, or Large Language Models (LLM) such as Open AI ChatGPT, Google Gemini, and GitHub Copilot for example.
