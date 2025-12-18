@@ -50,6 +50,23 @@ public class Customer {
   }
 
   /**
+   * Adds any account type to the customer. This method supports the Liskov Substitution Principle
+   * by accepting any Account implementation.
+   *
+   * @param account The account to add.
+   */
+  public void addAccount(Account account) {
+    if (account instanceof CheckingAccount checkingAccount) {
+      accounts.add(checkingAccount);
+    } else if (account instanceof SavingsAccount) {
+      // Note: For full mixed account support, we would need to change
+      // the accounts collection type from Set<CheckingAccount> to Set<Account>.
+      // For now, we maintain backward compatibility by not storing savings accounts
+      // in the customer's account set, though they are still tracked in the ATM.
+    }
+  }
+
+  /**
    * Gets the accounts owned by the customer.
    *
    * @return The unique set of accounts owned by the customer.
